@@ -2,3 +2,27 @@
     width: 100%;
     height: auto;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.navbar_link {
+    text-decoration: none;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    position: relative; 
+}
+
+.navbar_item {
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    position: relative; 
+}
+
+
+.navbar_item:hover {
+    transform: scale(1.1);
+}
