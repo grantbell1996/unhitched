@@ -8,58 +8,58 @@ function Navbar() {
         <> 
         <img className="navbar_Logo" src={UnhitchedBanner}/>
         <ul className="navbar">
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="">
+            <div className="navbar_link">
+                <Link className='link_text' to="">
                     home
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/tour">
+            <div className="navbar_link">
+                <Link className='link_text' to="/tour">
                     tour
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/store">
+            <div className="navbar_link">
+                <Link className='link_text' to="/store">
                     store
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/art">
+            <div className="navbar_link">
+                <Link className='link_text' to="/art">
                     art
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/design">
+            <div className="navbar_link">
+                <Link className='link_text' to="/design">
                     design
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/bio">
+            <div className="navbar_link">
+                <Link className='link_text' to="/bio">
                     bio
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/video">
+            <div className="navbar_link">
+                <Link className='link_text' to="/video">
                     video
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/fieldtrips">
+            <div className="navbar_link">
+                <Link className='link_text' to="/fieldtrips">
                     field trips
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/woodflock">
+            <div className="navbar_link">
+                <Link className='link_text' to="/woodflock">
                     wood flock
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/podcast">
+            <div className="navbar_link">
+                <Link className='link_text' to="/podcast">
                     podcast
                 </Link>
             </div>
-            <div className="navbar__item active">
-                <Link className='navbar_link' to="/contact">
+            <div className="navbar_link">
+                <Link className='link_text' to="/contact">
                     contact
                 </Link>
             </div>

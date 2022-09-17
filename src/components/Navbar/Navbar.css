@@ -7,6 +7,9 @@
     display: flex;
     justify-content: space-around;
     text-decoration: none;
+    padding-bottom: 2%;
+    border-bottom: 1px solid; color: rgb(39, 39, 39);
+    margin: 2%
 }
 
 .navbar_link {
@@ -16,13 +19,11 @@
     position: relative; 
 }
 
-.navbar_item {
-    transition: box-shadow 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out;
-    position: relative; 
+.navbar_link:hover {
+    transform: scale(1.13);
 }
 
-
-.navbar_item:hover {
-    transform: scale(1.1);
+.link_text {
+    text-decoration: none;
+    color: black;
 }
