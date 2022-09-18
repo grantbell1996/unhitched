@@ -8,6 +8,7 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <>
+    <div className='background'> 
       <BrowserRouter>
       <Navbar />
         <Routes>
@@ -16,6 +17,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+      </div>
     </>
   );
 }
