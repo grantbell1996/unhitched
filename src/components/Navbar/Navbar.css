@@ -7,11 +7,11 @@
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    padding: 2%;
-    border: 1px solid; color: rgb(240, 240, 240);
+    padding-bottom: 2%;
+    border-bottom: 1px solid; color: rgb(0, 0, 0);
     border-radius: px;
     margin: 2%;
-    background-color:rgb(255, 56, 56)
+    background-color:rgb(255, 255, 255)
 }
 
 .navbar_link {
@@ -27,5 +27,5 @@
 
 .link_text {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }

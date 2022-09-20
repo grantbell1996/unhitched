@@ -8,7 +8,8 @@
 .link_block {
     padding: 5%;
     border: 1px solid; color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
     margin: 6%;
     padding-left: 7%;
 }
@@ -16,7 +17,8 @@
 .follow_block {
     padding: 5%;
     border: 1px solid; color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
     margin: 6%;
     padding-left: 7%;
 }
