@@ -10,7 +10,7 @@ function LinksPanel() {
             <div className='link_container'>
                 <div className='link_block'>HEY, COUSIN! SUBSCRIBE TO OUR MONTHLY NEWSLETTER SO WE CAN STAY IN TOUCH!</div>
                 <div className='link_block'>
-                    <Link className='track_link'>Track</Link> to get concert, live stream updates and tour updates.
+                    <a href="https://www.bandsintown.com/artist-subscribe/1362611?utm_campaign=track&utm_medium=web&app_id=js_unhitched.com&affil_code=js_unhitched.com&utm_source=widget&came_from=242&spn=0&signature=ZZb2c946900f126ab0ecc45faec33bf0644d4cbd7730a0d836b83e79adb793c3d1" className='track_link'>Track</a> to get concert, live stream updates and tour updates.
                 </div>
                 <div className='follow_block'>
                     <div className=''>Follow us!</div>

@@ -31,4 +31,11 @@
    width: 20%;
    padding-top: 5%;
    padding-right: 9%;
+   transition: box-shadow 0.3s ease-in-out;
+   transition: transform 0.3s ease-in-out;
+   position: relative; 
+}
+
+.social_logo:hover {
+   transform: scale(1.3);
 }

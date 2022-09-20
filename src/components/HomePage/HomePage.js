@@ -7,6 +7,7 @@ import LateBloomer from "../images/late_bloomer_cover.jpeg"
 function HomePage() {
   return (
     <>
+    <div className='hp_background'> 
       <h1 className='hp_header'>Welcome to everything you needed to know about Antsy McClain and his musical cohorts, The Trailer Park Troubadours</h1>
       {/* <div className="links_container">
         <ul className='hp_links'>
@@ -51,6 +52,7 @@ function HomePage() {
 
       <div className='album_desc'>The original artwork is in the private collection of Lisa Forsyth.
       </div> */}
+      </div>
     </>
   )
 }
