@@ -4,9 +4,14 @@
    
 }
 
-.album_bg {
+.hp_background {
+    /* background-image: url("https://s3.amazonaws.com/bit-photos/large/9046979.jpeg"); */
+}
+
+.antsy_photo {
+    padding-left: 15%;
     height: auto;
-    width: 100%;
+    width: 70%;
 }
 
 .album_tile {
