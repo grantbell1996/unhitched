@@ -1,0 +1,23 @@
+.design_body {
+
+}
+
+.design_header {
+    padding-left: 8%;
+}
+
+.design_container {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%
+}
+
+.design_block {
+    padding-bottom: 5%;
+}
+
+.design_image {
+    padding-left: 5%;
+    padding-right: 5%;
+}

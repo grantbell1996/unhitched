@@ -6,6 +6,8 @@ import HomePage from './components/HomePage/HomePage';
 import Navbar from './components/Navbar/Navbar';
 import Tour from './components/Tour/Tour';
 import LinksPanel from './components/LinksPanel/LinksPanel';
+import Art from './components/Art/Art';
+import Design from './components/Design/Design';
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
           <Route path="" element={<HomePage />}></Route>
 
           <Route path="/tour" element={<Tour />}></Route>
+
+          <Route path="/art" element={<Art />}></Route>
+
+          <Route path="/design" element={<Design />}></Route>
 
         </Routes>
         </div>
