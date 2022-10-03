@@ -5,6 +5,8 @@ import antsyBookDesign from "../images/ANTSY_BOOK_COVERS.jpeg"
 import TnMagDesign from "../images/TN-MAG-DESIGN.jpeg"
 import otherArtists from "../images/OTHER_ARTISTS_COVERS.jpeg"
 import otherArtists2 from "../images/OTHER_ARTISTS_COVERS2.jpeg"
+import otherArtists3 from "../images/OTHER_ARTIST_COVERS3.jpeg"
+import otherAuthors from "../images/OTHER_AUTHORS_BOOK_COVERS.jpeg"
 
 function Design() {
     return (
@@ -72,6 +74,33 @@ function Design() {
                     <div>Nate Lee is a master musician. When he wanted to promote his ability to fit in and “play well” with other musicians in this amazing collection of songs, he called Antsy. “Nate gave me the photos he wanted to use,” says Antsy, “And asked me to do the rest. I relied heavily on textures and tools in Photoshop to replicate the folky feel of the music.” You can learn more about Nate Lee and purchase his music <a href="https://thenatelee.com/">HERE</a>.</div>
 
                 </div>
+                <img className='design_image' src={otherArtists3} />
+                <div className='design_container'>
+
+                    <h2>Above Left,</h2>
+
+                    <div>Antsy first met Kevin Ward after a show in Atlanta, Kevin's home town. Soon they were hanging out together on one of the Nashville Field Trips Antsy hosts with his wife, Deana Lynn. Then he came to another, and then another. Now, several years later, they've become good friends. "Kevin trusted me to produce his first album," explains Antsy. "When he first showed up at a Field Trip, he was so timid, but had no reason to be. His songs are great and he's a magnificent guitar player." The album, "Long Overdue," produced (and designed) by Antsy McClain can be found <a href="https://kevinward.hearnow.com/">HERE</a>.</div>
+
+                    <h2>Above Right,</h2>
+
+                    <div>Trop Rock Singer/songwriter Brent Burns has been entertaining people with his music and wit for decades, and came to Antsy with the concept for his upcoming album, "Somewhere South of Here," firmly in mind and needing dressed up a bit. "I had to dig pretty deep into my Photoshop skills to pull this one off," recalls Antsy, "But I had a lot of fun with it." See all of Brent Burns' musical output <a href="https://brentburns.com/">HERE</a>. </div>
+                </div>
+                <img className='design_image' src={otherAuthors} />
+                <div className='design_container'>
+
+                    <h2>Other Author’s Book Covers</h2>
+
+                    <div>“I encourage my friends to write their memoirs,” Antsy explains, “To not wait until they’re famous or somehow noteworthy enough by the standards of the world before doing so. And now, in the digital printing era, anyone can publish a book! It may just be 100 copies, or even less, but most everyone has enough friends and loved ones to warrant telling their story, sharing what they’ve lived through, what they’ve lost and what they’ve learned along the way.” </div>
+
+                    <h2>Above Left,</h2>
+
+                    <div>Antsy’s cover design for the double memoir by his friends Pete and Erin Huttlinger remains a favorite project. It chronicles their battle with Pete’s congenitally damaged heart, his subsequent stroke and the fight to relearn everything, including how to play the guitar all over again. The book (along with Pete’s amazing music) can be purchased <a href="https://www.petehuttlinger.com/">HERE</a>.</div>
+
+                    <h2>Above Right,</h2>
+
+                    <div>Antsy’s longtime friend, David Kravetz, travels America with boundless energy and contagious enthusiasm, often taking notes on this country’s strangest and most interesting towns and tourist attractions. His book series, (with covers designed by Antsy) can be purchased <a href="https://lessbeatenpaths.com/author/sumoflam143/">HERE</a>.</div>
+
+                    </div>
             </div>
         </>
     )
