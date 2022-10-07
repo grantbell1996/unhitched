@@ -2,14 +2,14 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Link, useHref } from 'react-router-dom'
 import "./Homepage.css"
-import antsyPhoto from "../images/antsy_profile.jpeg"
+import homepageBG from "../images/Unhitched BG.png"
 
 function HomePage() {
   return (
     <>
     <div className='hp_background'> 
       <h1 className='hp_header'>Welcome to everything you needed to know about Antsy McClain and his musical cohorts, The Trailer Park Troubadours</h1>
-      <img className='antsy_photo' src={antsyPhoto}/>
+      <img className='antsy_photo' src={homepageBG}/>
       {/* <div className="links_container">
         <ul className='hp_links'>
           <Link className='hp_link' to="">

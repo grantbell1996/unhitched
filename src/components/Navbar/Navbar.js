@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import UnhitchedBanner from "../images/unhitched banner.png"
+import AntsyHomeLogo from "../images/AntsyHomeLogo.png"
 import "./Navbar.css"
 
 function Navbar() {
     return (
         <> 
-        <img className="navbar_Logo" src={UnhitchedBanner}/>
+        {/* <img className="navbar_Logo" src={UnhitchedBanner}/> */}
         <ul className="navbar">
             <div className="navbar_link">
                 <Link className='link_text' to="">
-                    home
+                     <img className='homeLogo' src={AntsyHomeLogo}/>
                 </Link>
             </div>
             <div className="navbar_link">
