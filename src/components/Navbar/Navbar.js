@@ -9,9 +9,9 @@ function Navbar() {
         <> 
         {/* <img className="navbar_Logo" src={UnhitchedBanner}/> */}
         <ul className="navbar">
-            <div className="navbar_link">
+            <div className='home_navbar_link'>
                 <Link className='link_text' to="">
-                     <img className='homeLogo' src={AntsyHomeLogo}/>
+                    <img className='home_logo' src={AntsyHomeLogo}/>
                 </Link>
             </div>
             <div className="navbar_link">
