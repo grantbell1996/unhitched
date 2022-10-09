@@ -8,6 +8,7 @@ import Tour from './components/Tour/Tour';
 import LinksPanel from './components/LinksPanel/LinksPanel';
 import Art from './components/Art/Art';
 import Design from './components/Design/Design';
+import Bio from './components/Bio/Bio';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <Route path="/art" element={<Art />}></Route>
 
           <Route path="/design" element={<Design />}></Route>
+
+          <Route path="/bio" element={<Bio />}></Route>
 
         </Routes>
         </div>

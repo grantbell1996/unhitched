@@ -1,0 +1,15 @@
+.bio_header {
+    display: flex;
+    padding-left: 8%;
+
+}
+
+.bio_body {
+    color: white;
+}
+
+.antsy_bird {
+    width: auto;
+    height: 30%;
+    padding-left: 8%;
+}
