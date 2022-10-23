@@ -4,12 +4,31 @@
 
 }
 
+.bio {
+    display: flex;
+}
+
 .bio_body {
     color: white;
 }
 
 .antsy_bird {
-    width: auto;
-    height: 30%;
-    padding-left: 8%;
+    width: 60%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.bio_container {
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-left: 7%;
+}
+
+.antsy_links {
+
+}
+
+.bio_link {
+    padding: 2%;
 }
