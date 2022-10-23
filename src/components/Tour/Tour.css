@@ -8,6 +8,7 @@
     transition: box-shadow 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out;
     position: relative; 
+    color: white;
 }
 
 .date_link:hover {
@@ -17,8 +18,13 @@
 .date_body {
     display: flex;
     flex-direction: column;
+    padding: 5%;
 }
 
 .date_container_bottom {
     padding: 4%;
+}
+
+.date_container_top {
+    color: white;
 }

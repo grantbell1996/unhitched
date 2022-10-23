@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Link, useHref } from 'react-router-dom'
 import "./Homepage.css"
-import homepageBG from "../images/Unhitched BG.png"
+import homepageBG from "../images/Unhitched BG2.png"
 
 function HomePage() {
   return (
