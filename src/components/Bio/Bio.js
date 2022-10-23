@@ -18,33 +18,29 @@ function Bio() {
                     <div className='bio_container'>Many of his songs have been included in projects for The Blue Collar Comedy Tour guys, Jeff Foxworthy, Larry the Cable Guy and Bill Engvall. </div>
                     <div className='bio_container'>He’s been called “a national treasure” (Modesto Bee), and “a creative force” (Houston Chronicle). But his favorite quote comes from his uncle Fred, who describes Antsy as “a happier, funnier Bob Dylan.” However you may think others perceive him, you will likely think of Antsy as a friend after attending one of his concerts. His word craft and boundless energy matched with his casual, approachable persona make him a one of a kind. </div>
                 </div>
-                <div className='antsy_links'>
-                    <div>
-                    <ul className='hp_links'>
-          <Link className='bio_link' to="">
-            Antsy McClain on IMDB
-          </Link>
-          <Link className='bio_link' to="">
-            Antsy McClain on Instagram
-          </Link>
-          <Link className='bio_link' to="">
-            Antsy McClain on Youtube
-          </Link>
-          <Link className='bio_link' to="">
-            Antsy McClain on Facebook
-          </Link>
-          <Link className='bio_link' to="">
-            Antsy McClain on Facebook
-          </Link>
-          <Link className='bio_link' to="">
-            Antsy McClain on Spotify
-          </Link>
-          <Link className='bio_link' to="">
-            Antsy McClain Podcast
-          </Link>
-        </ul>
-                    </div>
-                </div>
+                        <ul className='antsy_links'>
+                            <Link className='bio_link' to="">
+                                Antsy McClain on IMDB
+                            </Link>
+                            <Link className='bio_link' to="">
+                                Antsy McClain on Instagram
+                            </Link>
+                            <Link className='bio_link' to="">
+                                Antsy McClain on Youtube
+                            </Link>
+                            <Link className='bio_link' to="">
+                                Antsy McClain on Facebook
+                            </Link>
+                            <Link className='bio_link' to="">
+                                Antsy McClain on Facebook
+                            </Link>
+                            <Link className='bio_link' to="">
+                                Antsy McClain on Spotify
+                            </Link>
+                            <Link className='bio_link' to="">
+                                Antsy McClain Podcast
+                            </Link>
+                        </ul>
             </div>
         </>
     )

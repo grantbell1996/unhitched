@@ -7,6 +7,7 @@ import Facebook from "../images/facebook_logo.png"
 function LinksPanel() {
     return (
         <>
+        <div className='links'> 
             <div className='link_container'>
                 <div className='link_block'>HEY, COUSIN! SUBSCRIBE TO OUR MONTHLY NEWSLETTER SO WE CAN STAY IN TOUCH!</div>
                 <div className='link_block'>
@@ -21,6 +22,7 @@ function LinksPanel() {
                         <img src={Facebook} className='social_logo' />
                     </a>
                 </div>
+            </div>
             </div>
         </>
     )

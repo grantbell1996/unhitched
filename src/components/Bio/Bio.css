@@ -21,14 +21,28 @@
 
 .bio_container {
     padding-top: 3%;
-    padding-right: 15%;
-    padding-left: 7%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .antsy_links {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 7px;
 }
 
 .bio_link {
-    padding: 2%;
+    padding: 7%;
+    margin: 3%;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
 }
