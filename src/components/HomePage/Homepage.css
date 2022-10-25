@@ -10,11 +10,16 @@
 
 }
 
+.unhitched_tagline {
+    width: 92%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
 .antsy_photo {
-    height: auto;
-    width: 100%;
-    margin-top: px;
-    z-index: -1;
+    margin-left: 7%;
+    height: 100%;
 }
 
 .album_tile {

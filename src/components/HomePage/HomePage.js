@@ -2,46 +2,15 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Link, useHref } from 'react-router-dom'
 import "./Homepage.css"
-import homepageBG from "../images/Unhitched BG2.png"
+import homepageBG from "../images/ANTSY-AND-BLUEBIRD.png"
+import unhitched_banner from "../images/unhitched_banner.png"
 
 function HomePage() {
   return (
     <>
     <div className='hp_background'> 
-      <h1 className='hp_header'>Welcome to everything you needed to know about Antsy McClain and his musical cohorts, The Trailer Park Troubadours</h1>
+      <img className='unhitched_tagline' src={unhitched_banner}/>
       <img className='antsy_photo' src={homepageBG}/>
-      {/* <div className="links_container">
-        <ul className='hp_links'>
-          <Link className='hp_link' to="">
-            Antsy McClain on IMDB
-          </Link>
-          <Link className='hp_link' to="">
-            Antsy McClain on Instagram
-          </Link>
-          <Link className='hp_link' to="">
-            Antsy McClain on Youtube
-          </Link>
-          <Link className='hp_link' to="">
-            Antsy McClain on Facebook
-          </Link>
-          <Link className='hp_link' to="">
-            Antsy McClain on Facebook
-          </Link>
-          <Link className='hp_link' to="">
-            Antsy McClain on Spotify
-          </Link>
-          <Link className='hp_link' to="">
-            Antsy McClain Podcast
-          </Link>
-        </ul>
-      </div>
-
-      <div className='album_tile'>
-        <Link className="" to="">
-          <img className="album_bg" width="" src={LateBloomer} />
-          <div className='album_hover'>Click here to download Antsy McClain's latest album!</div>
-        </Link>
-      </div> */}
       {/* <div className='album_desc'>
         “I’m excited to have you all hear my new album, Late Bloomer. It’s available NOW and contains 23 songs that blend humor with more serious messages to entertain you, make you think a little, and get you tapping your toes.” – Antsy McClain</div>
 
