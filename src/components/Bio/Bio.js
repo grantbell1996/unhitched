@@ -27,27 +27,24 @@ function Bio() {
                     <iframe className="youtube_link" width="510" height="287" src="https://www.youtube.com/embed/GQrlCTBVZ1Y" title="Antsy McClain & Tommy Smothers - Prozac Made Me Stay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                         <ul className='antsy_links'>
-                            <Link className='bio_link' to="">
+                            <a className='bio_link' href="https://www.imdb.com/name/nm3061497/">
                                 Antsy McClain on IMDB
-                            </Link>
-                            <Link className='bio_link' to="">
+                            </a>
+                            <a className='bio_link' href="https://www.instagram.com/antsymc/">
                                 Antsy McClain on Instagram
-                            </Link>
-                            <Link className='bio_link' to="">
+                            </a>
+                            <a className='bio_link' href="https://www.youtube.com/channel/UCbzoj5IXvR-ngdEv6qVJlMA">
                                 Antsy McClain on Youtube
-                            </Link>
-                            <Link className='bio_link' to="">
+                            </a>
+                            <a className='bio_link' to="https://www.facebook.com/AntsyMcClain">
                                 Antsy McClain on Facebook
-                            </Link>
-                            <Link className='bio_link' to="">
-                                Antsy McClain on Facebook
-                            </Link>
-                            <Link className='bio_link' to="">
+                            </a>
+                            <a className='bio_link' to="https://www.facebook.com/thetroubs">
+                                The Troubs on Facebook
+                            </a>
+                            <a className='bio_link' to="https://open.spotify.com/artist/1XUPlOOT5Rtf85Ps3E1PNy">
                                 Antsy McClain on Spotify
-                            </Link>
-                            <Link className='bio_link' to="">
-                                Antsy McClain Podcast
-                            </Link>
+                            </a>
                         </ul>
             </div>
         </>
