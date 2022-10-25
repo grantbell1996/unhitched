@@ -9,6 +9,7 @@ import LinksPanel from './components/LinksPanel/LinksPanel';
 import Art from './components/Art/Art';
 import Design from './components/Design/Design';
 import Bio from './components/Bio/Bio';
+import Video from './components/Video/Video';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           <Route path="/design" element={<Design />}></Route>
 
           <Route path="/bio" element={<Bio />}></Route>
+
+          <Route path="/video" element={<Video />}></Route>
 
         </Routes>
         </div>

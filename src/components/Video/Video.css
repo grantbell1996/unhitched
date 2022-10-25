@@ -1,0 +1,24 @@
+.video_body {
+    color: white;
+}
+
+.video_header {
+    padding-left: 8%;
+}
+
+.video_subheader {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.yt_channel_link {
+    color: white;
+    font-style: italic;
+}
+
+.video_link {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
+}
