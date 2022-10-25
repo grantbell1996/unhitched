@@ -17,6 +17,14 @@ function Bio() {
                     <div className='bio_container'>As a master storyteller with many PBS, NPR and countless radio and television appearances under his belt, Antsy McClain has fine-tuned the craft of getting an audience to laugh hysterically and shed a tear – often within the same song. Whether alone with his guitar or with his band, The Trailer Park Troubadours, Antsy creates an unforgettable night of music, theater and storytelling. He has made over 25 albums of all original songs and has garnered the praise of artists like Waylon Jennings, Willie Nelson, Kris Kristofferson, Guy Clark, Lindsay Buckingham, Tommy Smothers and many more. His albums have sold in the hundreds of thousands from decades of tireless touring and promotion. </div>
                     <div className='bio_container'>Many of his songs have been included in projects for The Blue Collar Comedy Tour guys, Jeff Foxworthy, Larry the Cable Guy and Bill Engvall. </div>
                     <div className='bio_container'>He’s been called “a national treasure” (Modesto Bee), and “a creative force” (Houston Chronicle). But his favorite quote comes from his uncle Fred, who describes Antsy as “a happier, funnier Bob Dylan.” However you may think others perceive him, you will likely think of Antsy as a friend after attending one of his concerts. His word craft and boundless energy matched with his casual, approachable persona make him a one of a kind. </div>
+
+                    <iframe className="youtube_link" width="640" height="360" src="https://www.youtube.com/embed/x1RFhCv8tR4" title="14 | Antsy McClain | TEDxCarsonCity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <iframe className="youtube_link" width="510" height="287" src="https://www.youtube.com/embed/C53lWaHe1Kw" title="ANTSY EPK 2016" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <iframe className="youtube_link" width="510" height="287" src="https://www.youtube.com/embed/J7YUgX1Ydcc" title="OUR EVIDENCE OF LIFE ON EARTH PROMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                    <iframe className="youtube_link" width="510" height="287" src="https://www.youtube.com/embed/GQrlCTBVZ1Y" title="Antsy McClain & Tommy Smothers - Prozac Made Me Stay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                         <ul className='antsy_links'>
                             <Link className='bio_link' to="">

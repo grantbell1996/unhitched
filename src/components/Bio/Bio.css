@@ -44,5 +44,12 @@
     text-decoration: none;
     border: 1px solid;
     color: rgb(255, 255, 255);
-    border-radius: 7px;
+    border-radius: 0px;
+}
+
+.youtube_link {
+    padding-top: 3%;
+    padding-left: 10%;
+    width: 80%;
+    
 }
