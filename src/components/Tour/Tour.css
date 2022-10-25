@@ -18,13 +18,23 @@
 .date_body {
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    padding: 3%;
 }
 
 .date_container_bottom {
-    padding: 4%;
+    padding: 3%;
+}
+
+.tour_container {
+    padding: 3%;
+    padding-left: 4%;
 }
 
 .date_container_top {
     color: white;
+}
+
+.tour_header {
+    padding-bottom: 2%;
+    width: 20%;
 }

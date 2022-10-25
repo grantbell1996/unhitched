@@ -1,6 +1,9 @@
 .bio_header {
     display: flex;
-    padding-left: 8%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 45%;
 
 }
 

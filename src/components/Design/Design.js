@@ -7,12 +7,13 @@ import otherArtists from "../images/OTHER_ARTISTS_COVERS.jpeg"
 import otherArtists2 from "../images/OTHER_ARTISTS_COVERS2.jpeg"
 import otherArtists3 from "../images/OTHER_ARTIST_COVERS3.jpeg"
 import otherAuthors from "../images/OTHER_AUTHORS_BOOK_COVERS.jpeg"
+import DesignHeader from "../images/Design_header.png"
 
 function Design() {
     return (
         <>
             <div className='design_body'>
-                <h1 className='design_header'>Design</h1>
+                <img className='design_header' src={DesignHeader}/>
                 <div className='design_container'>
                     <div className='design_block'>Most friends of Antsy McClain's music know that he has designed and illustrated all of his own albums, DVDs and book covers. Proficient in Photoshop and other computer graphic programs, Antsy honed his skills as a graphic designer at his first jobs in t-shirt print shops, daily newspapers, book and magazine publishers and advertising agencies. </div>
 

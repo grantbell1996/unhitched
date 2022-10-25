@@ -1,4 +1,11 @@
 .art_header {
+    padding-left: 4%;
     padding: 4%;
+    width: 10%;
+}
+
+.art_body {
+    padding: 4%;
+    padding-top: 0%;
     color: white;
 }

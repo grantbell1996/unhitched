@@ -2,13 +2,14 @@ import React from 'react'
 import "./Bio.css"
 import antsyBird from "../images/ANTSY-AND-BLUEBIRD.jpeg"
 import { Link } from 'react-router-dom'
+import BioHeader from "../images/Bio_header.png"
 
 function Bio() {
     return (
         <>
             <div className='bio'>
                 <div className='bio_body'>
-                    <h1 className='bio_header'>About Antsy McClain</h1>
+                    <img className='bio_header' src={BioHeader}/>
                     <img className='antsy_bird' src={antsyBird} />
                     <div className='bio_container'>Antsy McClain was born and raised in an American-made singlewide mobile home that was moved to three trailer parks during his formative years, giving him a unique perspective on life, love and the American Dream. </div>
                     <div className='bio_container'>Antsy combined his observations, his musical and wardrobe influences to create the trailer park that time forgot, Pine View Heights, where the residents take care of each other despite their differences. And they continue to provide him with endless inspiration for his songs and stories. </div>
