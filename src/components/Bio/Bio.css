@@ -48,6 +48,14 @@
     border: 1px solid;
     color: rgb(255, 255, 255);
     border-radius: 0px;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    position: relative; 
+}
+
+.bio_link:hover {
+    transform: scale(1.03);
+    box-shadow: 0 3px 10px rgba(67, 16, 16, 0.457);
 }
 
 .youtube_link {
