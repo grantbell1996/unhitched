@@ -51,7 +51,7 @@ function Navbar() {
             </div>
             <div className="navbar_link">
                 <Link className='link_text' to="/woodflock">
-                    wood flock
+                    woodflock
                 </Link>
             </div>
             <div className="navbar_link">

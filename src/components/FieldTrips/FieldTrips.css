@@ -1,5 +1,15 @@
+.field_trip_body {
+    display: grid;
+
+}
+
 .field_trip_header {
     padding-left: 3%;
     padding-top: 3%;
     width: 22%;
+}
+
+.field_trip_img {
+    width: 80%;
+    padding: 8%;
 }
