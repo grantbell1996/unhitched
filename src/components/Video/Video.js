@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Video.css"
+import VideoHeader from "../images/Video_header.png"
 
 function Video() {
     return (
         <> 
         <div className='video_body'>
-            <h1 className='video_header'>Video</h1>
+            <img className="video_header" src={VideoHeader} />
 
             <div className='video_subheader'>Check out a few of Antsy McClain’s Videos below. For more of his videos, please visit his YouTube Page <a className="yt_channel_link" HREF="https://www.youtube.com/user/antsymcclain">HERE</a></div>
 

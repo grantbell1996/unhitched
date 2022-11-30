@@ -3,7 +3,10 @@
 }
 
 .video_header {
-    padding-left: 8%;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 17%;
 }
 
 .video_subheader {
