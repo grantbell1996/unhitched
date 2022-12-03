@@ -1,0 +1,17 @@
+.podcastHeader {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 25%;
+}
+
+.podcastText {
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.podcast_logo {
+    padding-left: 10%;
+}
