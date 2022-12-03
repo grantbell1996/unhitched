@@ -27,6 +27,7 @@ function Podcast() {
                 <a href="https://podcasts.apple.com/us/podcast/resisting-enlightenment/id1436664527?mt=2%20#iTunes">
                     <img className="itunesLogo" src={ItunesLogo} />
                 </a>
+                <div className='podcastText'>And if you are podcast-resistant, here are the first five episodes in MP3 files. Just click and listen:</div>
             </div>
         </div>
     )
