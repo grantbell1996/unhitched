@@ -9,6 +9,9 @@ function FieldTrips() {
     <div className='field_trip_body'>
         <img className="field_trip_header" src={FieldTripHeader}/>
         <img className='field_trip_img' src={FieldTripImage}/>
+        <div className='ft_dates'>
+          <div>dates here</div>
+        </div>
     </div>
   )
 }
