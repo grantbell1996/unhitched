@@ -1,0 +1,15 @@
+.contactHeader {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 27%;
+}
+
+.contactInfo {
+    color: white;
+    padding: 1%;
+}
+
+.contactInfoCont {
+    padding-left: 8%;
+}

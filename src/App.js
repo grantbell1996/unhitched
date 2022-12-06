@@ -13,6 +13,7 @@ import Video from './components/Video/Video';
 import FieldTrips from './components/FieldTrips/FieldTrips';
 import Woodflock from './components/Woodflock/Woodflock';
 import Podcast from './components/Podcast/Podcast';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
           <Route path="/woodflock" element={<Woodflock />}></Route>
 
           <Route path="/podcast" element={<Podcast />}></Route>
+          
+          <Route path="/contact" element={<Contact />}></Route>
 
         </Routes>
         </div>

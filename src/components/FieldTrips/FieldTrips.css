@@ -4,9 +4,10 @@
 }
 
 .field_trip_header {
-    padding-left: 3%;
-    padding-top: 3%;
-    width: 24%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 27%;
 }
 
 .field_trip_img {
